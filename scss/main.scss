@@ -1,0 +1,17 @@
+*{
+  margin:0;
+  padding: 0;
+}
+@font-face {
+  font-family: "roboto-light";
+  src: url("../fonts/roboto/RobotoCondensed-Light.ttf");
+}
+@import "variable.scss";
+@import "menu.scss";
+@import "home.scss";
+@import "about.scss";
+@import "contact.scss";
+@import "portfolio.scss";
+@import "services.scss";
+@import "resume.scss";
+@import "copy.scss";

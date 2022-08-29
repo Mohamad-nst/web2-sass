@@ -1,0 +1,207 @@
+@mixin usualimg(){
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+  transition: all 300ms linear;
+}
+@mixin sliderbtn(){
+  display: block;
+  margin: 25px auto;
+  width: 150px;
+  height: 40px;
+  background-color: #34B7A7;
+  text-align: center;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  transition: all 300ms linear;
+  &:hover{
+    background-color: #3DC8B7;
+  }
+}
+@mixin socialicon(){
+  display: block;
+  margin-left: 10px;
+  line-height: 75px;
+  font-size: 22px;
+  color: black;
+  transition: all 300ms linear;
+  cursor: pointer;
+  &:hover{
+    color: #34B7A7;
+  }
+}
+@mixin contactbtn(){
+  display: block;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #34B7A7;
+  margin: 0 auto;
+  margin-top: 25px;
+  text-transform: capitalize;
+  color: white;
+  font-family: Roboto;
+  font-size: 20px;
+  border: none;
+  transition: all 300ms linear;
+  cursor: pointer;
+  &:hover{
+    background-color: #3DC8B7;
+  }
+}
+@mixin contacticon(){
+  display: block;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  color: #34B7A7;
+  background-color: rgba(52, 183, 167, 0.15);
+  border-radius: 50%;
+  text-align: center;
+  transition: all 300ms linear;
+}
+@mixin itempage(){
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+@mixin copy(){
+  width: 100%;
+  height: 110px;
+  background-color: #E9E8E6;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+@mixin titlepage($w){
+    @if($w==1200){
+  margin: 0 auto;
+  width: 15%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Roboto Medium";
+  border-bottom: 3px solid #34B7A7;
+  padding-bottom: 20px;
+}
+  @else if($w==992px){
+  margin: 0 auto;
+  width: 17.5%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Roboto Medium";
+  border-bottom: 3px solid #34B7A7;
+  padding-bottom: 20px;
+}
+  @else if($w==768px){
+      margin: 0 auto;
+      width: 20%;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: "Roboto Medium";
+      border-bottom: 3px solid #34B7A7;
+      padding-bottom: 20px;
+    }
+  @else if($w==576px){
+      margin: 0 auto;
+      width: 29%;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: "Roboto Medium";
+      border-bottom: 3px solid #34B7A7;
+      padding-bottom: 20px;
+    }
+  @else {
+      margin: 0 auto;
+      width: 35%;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: "Roboto Medium";
+      border-bottom: 3px solid #34B7A7;
+      padding-bottom: 20px;
+    }
+}
+@mixin textpage($t){
+  @if($t==1200px){
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Roboto Medium";
+  }
+  @else if($t==992px){
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Roboto Medium";
+  }
+  @else if($t==768px){
+    margin-top: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Roboto Medium";
+  }
+  @else if($t==576px){
+    margin-top: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Roboto Medium";
+  }
+  @else {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Roboto Medium";
+  }
+}
+@mixin stracturepage($x){
+  @if($x==1200px){
+    width:100% ;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    padding-top: 40px;
+    margin-bottom: 65px;
+    box-sizing: border-box;
+  }
+  @else if($x==992px){
+    width:100% ;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 40px;
+    margin-bottom: 65px;
+    box-sizing: border-box;
+  }
+  @else if($x==768px){
+    width:100% ;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 40px;
+    margin-bottom: 65px;
+    box-sizing: border-box;
+  }
+  @else if($x==576px){
+    width:100% ;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 40px;
+    margin-bottom: 65px;
+    box-sizing: border-box;
+  }
+  @else {
+    width:100% ;
+    padding-left: 4.5%;
+    padding-right: 4.5%;
+    padding-top: 40px;
+    margin-bottom: 65px;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,141 @@
+@import "mixin";
+@media only screen and (min-width: 1200px){
+  div.copy{
+    @include copy();
+    >h1{
+      text-align: center;
+      text-transform: capitalize;
+      font-size: 18px;
+      font-family: "Roboto Light";
+      color: grey;
+      margin-bottom: 15px;
+      >span{
+        font-weight: bold;
+        color: black;
+      }
+    }
+    >h2{
+      text-align: center;
+      text-transform: capitalize;
+      font-size: 14px;
+      font-family: "roboto";
+      color: grey;
+      >span{
+        font-weight: bold;
+        color: #34B7A7;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+  div.copy{
+    @include copy();
+    >h1{
+      text-align: center;
+      text-transform: capitalize;
+      font-size: 18px;
+      font-family: "Roboto Light";
+      color: grey;
+      margin-bottom: 15px;
+      >span{
+        font-weight: bold;
+        color: black;
+      }
+    }
+    >h2{
+      text-align: center;
+      text-transform: capitalize;
+      font-size: 14px;
+      font-family: "Roboto Light";
+      color: grey;
+      >span{
+        font-weight: bold;
+        color: #34B7A7;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px){
+  div.copy{
+    @include copy();
+    >h1{
+      text-align: center;
+      text-transform: capitalize;
+      font-size: 18px;
+      font-family: "Roboto Light";
+      color: grey;
+      margin-bottom: 15px;
+      >span{
+        font-weight: bold;
+        color: black;
+      }
+    }
+    >h2{
+      text-align: center;
+      text-transform: capitalize;
+      font-size: 14px;
+      font-family: "Roboto Light";
+      color: grey;
+      >span{
+        font-weight: bold;
+        color: #34B7A7;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px){
+  div.copy{
+    @include copy();
+    >h1{
+      text-align: center;
+      text-transform: capitalize;
+      font-size: 18px;
+      font-family: "Roboto Light";
+      color: grey;
+      margin-bottom: 15px;
+      >span{
+        font-weight: bold;
+        color: black;
+      }
+    }
+    >h2{
+      text-align: center;
+      text-transform: capitalize;
+      font-size: 14px;
+      font-family: "Roboto Light";
+      color: grey;
+      >span{
+        font-weight: bold;
+        color: #34B7A7;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 576px){
+  div.copy{
+    @include copy();
+    >h1{
+      text-align: center;
+      text-transform: capitalize;
+      font-size: 18px;
+      font-family: "Roboto Light";
+      color: grey;
+      margin-bottom: 15px;
+      >span{
+        font-weight: bold;
+        color: black;
+      }
+    }
+    >h2{
+      text-align: center;
+      text-transform: capitalize;
+      font-size: 14px;
+      font-family: "Roboto Light";
+      color: grey;
+      >span{
+        font-weight: bold;
+        color: #34B7A7;
+      }
+    }
+  }
+}
